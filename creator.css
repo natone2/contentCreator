@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(96, 96, 96);
+}
+
+.title h1 {
+    font-family: monospace;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.title h2 {
+    font-family: monospace;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title h3 {
+    font-family: monospace;
+    text-align: left;
+    font-size: 15px;
+}
+
+.title h3 a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+
+.title h3 a:hover {
+    opacity: 0.7;
+}
+
+.article {
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 550px;
+}
+
+textarea {
+    font-size: 18px;
+    font-family: monospace;
+    padding: 10px;
+}
+.test {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    color: #282828;
+    border:#282828;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .comment-box {
+    font-family: monospace;
+    text-align: left;
+    width: 660px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border:rgba(201, 201, 201, 0.722);
+    border-radius: 4px;    
+}
+
+.comment-box p {
+    font-size: 14px;
+}
+
+.comment-box h2 {
+    font-size: 18px;
+}
+
+.edit-form {
+    padding: 0.7rem;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-family: monospace;
+}
+
+.edit-form button {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    font-family: monospace;
+    font-weight: 400px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.edit-form button:hover {
+    opacity: 1;
+
+}
